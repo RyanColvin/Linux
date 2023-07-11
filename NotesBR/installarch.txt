@@ -1,0 +1,31 @@
+Get a usb drive with arch on it(Balena Etcher)
+Plug in usb drive to computer
+Enter BIOS on computer and make sure it boots with USB drive first
+
+Terminal commands:
+
+#To get wifi working:
+iwctl
+station wlan0 connect "wifi network name"
+exit
+ping google.com (to make sure it's working)
+
+#Format drive:
+lsblk
+gdisk /dev/(name of drive)
+x for prompt
+z for prompt
+y for prompt
+y for prompt
+
+#Make sure everything is up to date:
+pacman -Sy
+
+#Get keys:
+pacmana-key --init
+pacman-key --populate archlinux
+
+#Start the installation:
+archinstall
+
+#Go through options and install, pretty straightforward
