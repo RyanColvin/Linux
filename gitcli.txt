@@ -1,0 +1,25 @@
+Install git (yay -S git)
+Install github cli (yay -S github-cli-git)
+
+#setup with config info
+git config --global user.name "username"
+git config --global user.email "email address"
+git config --global core.editor "editor"
+git config --global core.autocrif input (for linux and mac)
+
+#login to account, follow prompts
+gh auth login
+
+#make the .git folder in your current directory with git files
+git init -b main
+
+#add your URL from github
+git remote add origin "URL from github website"
+git remote -v
+
+#add the files then commit them with description
+git add (file name(s))
+git commit -m "description"
+
+#push the changes to github
+git push origin main
