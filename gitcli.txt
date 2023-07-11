@@ -22,4 +22,4 @@ git add (file name(s))
 git commit -m "description"
 
 #push the changes to github
-git push origin main
+git push origin main(for main branch, or name of other branch)
