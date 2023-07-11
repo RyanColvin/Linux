@@ -1,6 +1,9 @@
 Install git (yay -S git)
 Install github cli (yay -S github-cli-git)
 
+github cli commands:
+https://cli.github.com/manual/gh
+
 #setup with config info
 git config --global user.name "username"
 git config --global user.email "email address"

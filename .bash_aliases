@@ -1,5 +1,0 @@
-alias dl='cd ~/Downloads'
-alias docs='cd ~/Documents'
-alias myip='curl ipinfo.io/ip'
-alias freetube='cd ~/Documents/freetube/ && ./freetube'
-alias ll='ls -la'
