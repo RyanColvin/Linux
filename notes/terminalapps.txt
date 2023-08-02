@@ -1,0 +1,43 @@
+Fim - image viewer
+Feh - image viewer
+Mpv - video viewer 
+Mc - file browser
+Cmus - music player
+W3m - web browser
+Htop - system resource monitor
+Glances - system resource monitor
+Fish - better cli with autocomplete, etc
+Zathura - doc viewer
+Tuir - Reddit browser (not in apt)
+Rtv- reddit browser **
+Taskwarrior - task manager, task in cli
+*Nload - shows the current network load for download and upload
+Bpytop - a more advanced top, uses snap to install
+*Powertop - shows power usage by mw 
+*Powerstat - shows power usage by watts, be on battery power
+Pipe-viewer-git - YouTube viewer 
+
+Pywal - change app color?
+Themer 
+Elinks - web browser
+Shpaint - paint app?
+Wpe - text editor
+We - text editor, non programmer
+Browsh - web browser based on Firefox 
+Ranger - file browser 
+Btop
+*Gdu - shows you what is taking the most storage space
+ascii-image-converter
+toipe - practice typing, test how fast you type
+Wordgrinder - word processor
+Edex-ui - cool from like terminal application
+Cmatrix
+Tmatrix 
+Neo-matrix
+*Tlp - battery life saver
+*Timeshift - auto backups
+Howdy - face unlock
+
+
+
+xdg-open - opens files 

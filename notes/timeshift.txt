@@ -1,0 +1,12 @@
+sudo timeshift —create 
+
+Can also add —comments “backup comment”
+
+--tags D stands for Daily Backup
+--tags W stands for Weekly Backup
+--tags M stands for Monthly Backup
+--tags O stands for On-demand Backup
+
+To restore:
+sudo timeshift restore
+

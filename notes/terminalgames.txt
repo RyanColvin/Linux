@@ -1,0 +1,25 @@
+Ninvaders 
+Nudoku - sudoku, nudoku -d then difficulty
+Dwarf-fortress
+*Bastet - Tetris
+pacman4console
+nsnake 
+2048
+Moon-buggy
+ASCII-patrol - install from snap
+Greed
+bsdgames 
+Nethack-console
+
+
+
+
+Zsxd - fan made Zelda
+Zsdx - fan made Zelda
+Zboy - gameboy emulator
+yetris - tetris
+xrick - silly dungeon crawler
+Widelands - like Civ strategy game
+Freeciv - like civilization
+Mgba - gba emulator
+Supertux - like Mario, penguin tux 

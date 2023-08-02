@@ -1,0 +1,22 @@
+To make config files
+ranger —copy-config=all
+
+To enable image preview:
+Make sure W3m-img is installed
+
+set image_preview true in rc.conf file
+
+To see hidden files
+Set show_hidden true
+
+Commands: based on VIM 
+Start with :
+cw - change name
+dD - delete
+yy - copy
+dd - cut
+p - paste
+
+To set default text editor:
+s then type select-editor
+
