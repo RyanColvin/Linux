@@ -1,0 +1,32 @@
+github cli commands:
+https://cli.github.com/manual/gh
+
+#setup with config info
+git config --global user.name "username"
+git config --global user.email "email address"
+git config --global core.editor "editor"
+git config --global core.autocrif input (for linux and mac)
+
+#login to account, follow prompts
+gh auth login
+
+#make the .git folder in your current directory with git files
+git init -b main
+
+#create an SSH key
+ssh-keygen -t ed25519 -C emailaddress
+cat ~/.ssh/id_ed25519.pub
+Copy and paste key in github website - profile - settings - SSH keys
+#To test the key:
+ssh -T git@github.com
+
+#add your URL from github
+git remote add origin "URL from github website"
+git remote -v
+
+#add the files then commit them with description
+git add (file name(s)) or just . for everything
+git commit -m "description"
+
+#push the changes to github
+git push origin main(for main branch, or name of other branch) or just git push
