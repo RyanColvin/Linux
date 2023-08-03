@@ -1,0 +1,11 @@
+#To read the temperature:
+/usr/bin/vcgencmd measure_temp
+
+#Measure speed of SD card:
+cd /usr/share/agnostics && sh sdtest.sh
+
+#Turn off wifi, even after reboot (if using ethernet)
+sudo crontab -e
+#Add the following to the crontab file:
+@reboot ifconfig wlan0 down
+
